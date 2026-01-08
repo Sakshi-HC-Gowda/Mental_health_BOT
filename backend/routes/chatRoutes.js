@@ -1,7 +1,7 @@
 // /backend/routes/chatRoutes.js
 const express = require('express');
 const router = express.Router();
-const safetyController = require('../controllers/safetyController');
+const chatController = require('../controllers/chatController');
 
 /**
  * P0 Routes:
@@ -10,9 +10,9 @@ const safetyController = require('../controllers/safetyController');
  * Both process a user message, perform the safety check, and return the AI response.
  */
 // Primary route used by frontends
-router.post('/send', safetyController.processChatMessage);
+router.post('/send', chatController.processChatMessage);
 // Backward-compatible route
-router.post('/chat/send', safetyController.processChatMessage);
+router.post('/chat/send', chatController.processChatMessage);
 
 // P1 Future: Add routes for mood logging, resources, etc.
 

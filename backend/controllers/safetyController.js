@@ -45,7 +45,8 @@ exports.processChatMessage = async (req, res) => {
 
     // 2. LLM Processing (Only if safe)
     try {
-        const llmResponse = await llmService.generateResponse(message);
+        // Pass the anonymous session id through so the mock LLM can avoid repeating replies
+        const llmResponse = await llmService.generateResponse(message, userId);
         
         // P1 Future: Save chat history here
         

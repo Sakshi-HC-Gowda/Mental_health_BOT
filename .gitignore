@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Dist / Build
+dist/
+build/
+.expo/
+.expo-shared/
+
+# React Native / Expo
+android/
+ios/
+*.keystore
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# OneDrive
+**/~$*
+**/.~lock.*
