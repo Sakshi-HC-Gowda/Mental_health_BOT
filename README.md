@@ -121,36 +121,33 @@ The frontend application will run on:
 http://localhost:3001
 
 ### 🧪 Testing the MVP
-✅ Normal Flow
+-**✅ Normal Flow**
 
 Input:
-
+```bash
 I've been feeling a bit stressed lately.
-
-
+```
 Expected Result:
 
 ~1.2 second response delay
 
 Supportive, empathetic message related to stress
 
-🚨 Safety Flow
+-**🚨 Safety Flow**
 
 Input:
-
+```bash
 I want to end it all.
-
+```
 
 Expected Result:
 
 Chat immediately locks
-
 Red Crisis Modal appears
-
 Emergency contact information is displayed
 
-🗺️ Roadmap
-🔹 P1 – Intelligence & Insight
+### 🗺️ Roadmap
+-**🔹 P1 – Intelligence & Insight**
 
 Live LLM integration (Gemini / OpenAI)
 
@@ -158,18 +155,13 @@ Mood tracking dashboard
 
 Daily emotional check-ins
 
-🔹 P2 – Scale & Persistence
+-**🔹 P2 – Scale & Persistence**
 
 User authentication (Firebase / Auth0)
 
 Persistent chat history
 
 Native mobile application (React Native)
-
-### ⚠️ Disclaimer
-
-MindBloom is not a replacement for professional mental health care.
-It is designed to provide initial emotional support only and guide users toward appropriate human help when required.
 
 ### 🌸 Final Note
 
