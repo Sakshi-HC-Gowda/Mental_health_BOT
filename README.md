@@ -104,81 +104,75 @@ MindBloom follows a **Client–Server Architecture** with a safety-first workflo
 cd backend
 npm install
 npm start
+```
 Backend runs on:
 http://localhost:3000
-```
-###3️⃣ Frontend Setup
+
+## 3️⃣ Frontend Setup
+
+Navigate to the frontend directory and install dependencies:
+
+```bash
 cd frontend-web
 npm install
 npm start
-
-Frontend runs on:
+```
+The frontend application will run on:
 http://localhost:3001
 
-
-🧪 Testing the MVP
+### 🧪 Testing the MVP
 ✅ Normal Flow
+
 Input:
+
 I've been feeling a bit stressed lately.
 
+
 Expected Result:
 
+~1.2 second response delay
 
-~1.2 second delay
-
-
-Supportive, empathetic response related to stress
-
-
+Supportive, empathetic message related to stress
 
 🚨 Safety Flow
+
 Input:
+
 I want to end it all.
 
-Expected Result:
 
+Expected Result:
 
 Chat immediately locks
 
-
 Red Crisis Modal appears
 
-
-Emergency contact information displayed
-
-
+Emergency contact information is displayed
 
 🗺️ Roadmap
-P1 – Intelligence & Insight
-
+🔹 P1 – Intelligence & Insight
 
 Live LLM integration (Gemini / OpenAI)
 
-
 Mood tracking dashboard
-
 
 Daily emotional check-ins
 
-
-P2 – Scale & Persistence
-
+🔹 P2 – Scale & Persistence
 
 User authentication (Firebase / Auth0)
 
-
 Persistent chat history
 
+Native mobile application (React Native)
 
-Native mobile app (React Native)
+### ⚠️ Disclaimer
 
-
-
-⚠️ Disclaimer
 MindBloom is not a replacement for professional mental health care.
-It is designed to provide initial emotional support and guide users toward appropriate human help when needed.
+It is designed to provide initial emotional support only and guide users toward appropriate human help when required.
 
-🌸 Final Note
+### 🌸 Final Note
+
 MindBloom exists to prove one thing:
 
 Technology can be compassionate—when safety, privacy, and humanity come first.
